@@ -1,0 +1,30 @@
+<div class="container">
+    <img class="fitness" src="assets/1366x768_ATLA_Map.jpg" alt="Avatar Map">
+    <div *ngFor="let dest of destList" [ngSwitch]="dest._id">
+        <div *ngSwitchCase="0" class="btn BaSingSe round-button">
+            <div class="round-button-circle">
+                <a [routerLink]="['/destination/', dest._id]" class="tooltip round-button">
+                    <span style="background-image: url('/assets/BaSingSe/palace.jpg');">
+
+                        <strong>{{dest.name}}</strong><br />
+                        <strong>{{dest.price}}</strong><br />
+                        
+                    </span>
+                </a>
+            </div>
+        </div>
+
+        <div *ngSwitchCase="1" class="btn SouthPole round-button">
+            <div class="round-button-circle">
+                <a [routerLink]="['/destination/', dest._id]" class="round-button tooltip">
+                    <span style="background-image: url('/assets/SouthPole/SP_Desolation.png');">
+
+                        <strong>{{dest.name}}</strong><br />
+                        <strong>{{dest.price}}</strong><br />
+                    </span>
+                </a>
+            </div>
+        </div>
+  </div>
+</div>
+

@@ -1,0 +1,11 @@
+
+<mat-card class="spaceDude">{{ destination.name }}</mat-card>
+
+<mat-card>
+<div class="gallery js-flickity"
+  data-flickity-options='{ "wrapAround": true }'>
+   <img class="gallery-cell" *ngFor=" let pic of destination.images" src="{{pic}}"/>
+</div>
+</mat-card>
+
+<mat-card class="spaceDude"><p>{{ destination.description }}</p></mat-card>

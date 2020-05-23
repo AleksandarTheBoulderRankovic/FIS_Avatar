@@ -1,0 +1,97 @@
+.container {
+    position: relative;
+    
+  }
+  
+  /* Make the image responsive */
+  .container img {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Style the button and place it in the middle of the container/image */
+  .container .btn {
+    position: absolute;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+  }
+
+  .BaSingSe{
+    top: 30%;
+    left: 60%;
+    transform: translate(-5%, -5%);
+    -ms-transform: translate(-5%, -5%);
+  }
+
+  .SouthPole{
+    top: 70%;
+    left: 50%;
+    transform: translate(-5%, -5%);
+    -ms-transform: translate(-5%, -5%);
+  }
+
+
+
+  .round-button {
+    width:2%;
+  }
+  .round-button-circle {
+    width: 100%;
+    height:0;
+    padding-bottom: 100%;
+    border-radius: 50%;
+    border:5px solid #cfdcec;
+    overflow:hidden;
+          
+    background: #4679BD; 
+    box-shadow: 0 0 3px gray;
+  }
+  .round-button-circle:hover {
+    background:#30588e;
+  }
+  .round-button a {
+    display:block;
+    float:left;
+    width:100%;
+    padding-top:50%;
+    padding-bottom:50%;
+    line-height:1em;
+    margin-top:-0.5em;
+          
+    text-align:center;
+    color:#e2eaf3;
+    font-family:Verdana;
+    font-size:1.2em;
+    font-weight:bold;
+    text-decoration:none;
+  }
+
+
+  a.tooltip {outline:none; }
+  a.tooltip strong {line-height:30px;}
+  a.tooltip:hover {text-decoration:none;} 
+  a.tooltip span {
+      z-index:10;display:none; padding:14px 20px;
+      margin-top:60px; margin-left:-160px;
+      width:200px; line-height:16px;
+      height: 200px;
+  }
+  a.tooltip:hover span{
+      display:inline; position:absolute; 
+      border:2px solid #FFF;  color:rgb(4, 16, 184);
+      background:#333 repeat-x 0 0;
+      
+      background-repeat: no-repeat;
+      background-size: 240px 230px;
+  }
+  
+  .callout {z-index:20;position:absolute;border:0;top:-14px;left:120px;}
+      
+  /*CSS3 extras*/
+  a.tooltip span
+  {
+      border-radius:2px;        
+      box-shadow: 0px 0px 8px 4px #666;
+      /*opacity: 0.8;*/
+  }

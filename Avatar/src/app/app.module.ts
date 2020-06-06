@@ -8,8 +8,12 @@ import { AvatarWorldComponent } from './avatar-world/avatar-world.component';
 import { DestinationComponent } from './destination/destination.component';
 import { NavigationComponent } from './navigation/navigation.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { MatToolbarModule } from '@angular/material/toolbar'
-import { MatCardModule } from '@angular/material/card'
+import { MatToolbarModule } from '@angular/material/toolbar';
+import { MatCardModule } from '@angular/material/card';
+import {IvyCarouselModule} from 'angular-responsive-carousel';
+import { HttpClientModule } from '@angular/common/http';
+import { MatButtonModule } from '@angular/material/button';
+import { DirBtnDirective } from './directives/dir-btn.directive';
 
 @NgModule({
   declarations: [
@@ -17,14 +21,18 @@ import { MatCardModule } from '@angular/material/card'
     HomepageComponent,
     AvatarWorldComponent,
     DestinationComponent,
-    NavigationComponent
+    NavigationComponent,
+    DirBtnDirective
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     MatToolbarModule,
-    MatCardModule
+    MatCardModule,
+    IvyCarouselModule,
+    HttpClientModule,
+    MatButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,6 +1,23 @@
 .right {
     position: absolute;
-    right: 0px;
     padding: 10px;
     text-decoration: none;
+    color: cadetblue;
   }
+
+.home {
+  right: 0%;
+}
+
+.login {
+  right: 5%;
+}
+
+.signup {
+  right: 10.5%;
+}
+
+
+.Vergilius { color:  #006080; font-family: "161VergiliusW00-Regular"; font-size: 45px; line-height: 40px; font-weight: normal; margin-bottom: 43px; margin-top: 40px; text-align: center; text-shadow: 0 1px 1px #99e6ff; }
+
+.nav-ver  { color:  #006080; font-family: "161VergiliusW00-Regular"; font-size: 25px;  font-weight: normal;  text-align: center; text-shadow: 0 1px 1px #99e6ff; }

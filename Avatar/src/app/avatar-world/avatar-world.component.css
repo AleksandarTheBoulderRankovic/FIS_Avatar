@@ -31,6 +31,8 @@
     -ms-transform: translate(-5%, -5%);
   }
 
+  
+
 
 
   .round-button {
@@ -47,8 +49,15 @@
     background: #4679BD; 
     box-shadow: 0 0 3px gray;
   }
-  .round-button-circle:hover {
-    background:#30588e;
+  .BaSingSe .round-button-circle:hover {
+    background-image : url(https://i.imgur.com/N2iZA2L.jpg);
+    background-size : 39px 39px;
+
+  }
+  .SouthPole .round-button-circle:hover {
+    background-image : url(https://i.imgur.com/uybtMY3.png);
+    background-size : 39px 39px;
+
   }
   .round-button a {
     display:block;
@@ -67,6 +76,7 @@
     text-decoration:none;
   }
 
+  
 
   a.tooltip {outline:none; }
   a.tooltip strong {line-height:30px;}

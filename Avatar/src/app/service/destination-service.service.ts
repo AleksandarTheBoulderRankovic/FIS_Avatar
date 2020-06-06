@@ -1,5 +1,8 @@
 import { Injectable } from '@angular/core';
 import { Destination } from '../models/destination.model';
+import { HttpClient } from '@angular/common/http';
+import { Observable } from 'rxjs';
+import { map } from 'rxjs/operators';
 
 @Injectable({
   providedIn: 'root'
@@ -7,17 +10,15 @@ import { Destination } from '../models/destination.model';
 export class DestinationServiceService {
 
   private destList: Destination[] = [];
-  constructor() { 
-    const path = 'assets/BaSingSe/BSS_';
-    this.destList.push(new Destination(0, 'Ba Sing Se', "a nice place", 15, [path+'palace.jpg', path+'peace.jpg', path+'street.jpg', path+'tea.png', path+'Wall.png']));
-    this.destList.push(new Destination(1, 'South Pole', "a bitchin place", 2, []));
+  constructor(private http : HttpClient) { 
+    
   }
 
-  public getDestList() {
-    return this.destList;
+  public getDestList() : Observable<Destination[]> {
+    return this.http.get<Destination[]>('assets/destination.json');
   }
 
-  public getDestById(id: number) {
-      return this.destList.filter(x => x._id === id)[0];
+  public getDestById(id: number) : Observable<Destination>{
+      return this.http.get<Destination[]>('assets/destination.json').pipe(map(dest => dest.filter(x => x._id === id)[0]));
   }
 }

@@ -1,0 +1,22 @@
+[
+    {
+        "_id": 0,
+        "name": "Ba Sing Se",
+        "description": "a nice place",
+        "price": 15,
+        "images": [
+            "assets/BaSingSe/BSS_palace.jpg",
+            "assets/BaSingSe/BSS_peace.jpg",
+            "assets/BaSingSe/BSS_street.jpg",
+            "assets/BaSingSe/BSS_tea.png",
+            "assets/BaSingSe/BSS_Wall.png"
+        ]
+    },
+    {
+        "_id": 1,
+        "name": "South Pole",
+        "description": "a bitchin place",
+        "price": 2,
+        "images": []
+    }
+]

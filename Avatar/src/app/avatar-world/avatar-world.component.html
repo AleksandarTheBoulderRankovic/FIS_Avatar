@@ -2,30 +2,163 @@
 <div class="container">
     <img class="fitness" src="assets/1366x768_ATLA_Map.jpg" alt="Avatar Map">
     <div *ngFor="let dest of destList" [ngSwitch]="dest._id">
-        <div *ngSwitchCase="0" class="btn BaSingSe round-button">
+        
+
+        <div *ngSwitchCase="0" class="btn Kyoshi EarthNation round-button">
             <div class="round-button-circle">
                 <a [routerLink]="['/destination/', dest._id]" class="round-button tooltip">
-                    <span style="background-image: url('/assets/BaSingSe/BSS_palace.jpg');">
+                    <span style="background-image: url('/assets/KyoshiIsland/KI_warriors.png'); border:2px solid #995c00; ">
 
-                        <strong>{{dest.name}}</strong><br />
-                        <strong>{{dest.price}}</strong><br />
+                        <strong class="VergiliusEarth" style="color:#008000;">{{dest.name}}</strong><br />
+                        <strong class="VergiliusEarth" style="color:#008000;">{{dest.price | goldPipe}}</strong><br />
                         
                     </span>
                 </a>
             </div>
         </div>
 
-        <div *ngSwitchCase="1" class="btn SouthPole round-button">
+        <div *ngSwitchCase="1" class="btn SouthPole WaterNation round-button">
             <div class="round-button-circle">
                 <a [routerLink]="['/destination/', dest._id]" class="round-button tooltip">
                     <span style="background-image: url('/assets/SouthPole/SP_Desolation.png');">
 
-                        <strong>{{dest.name}}</strong><br />
-                        <strong>{{dest.price}}</strong><br />
+                        <strong class="VergiliusWater">{{dest.name}}</strong><br />
+                        <strong class="VergiliusWater">{{dest.price | goldPipe}}</strong><br />
                     </span>
                 </a>
             </div>
         </div>
+
+        <div *ngSwitchCase="2" class="btn SAT AirNation round-button">
+            <div class="round-button-circle">
+                <a [routerLink]="['/destination/', dest._id]" class="round-button tooltip">
+                    <span style="background-image: url('/assets/SAT/SAT_sat.png'); border:2px solid #ffffff;">
+
+                        <strong class="VergiliusAir">{{dest.name}}</strong><br />
+                        <strong class="VergiliusAir">{{dest.price | goldPipe}}</strong><br />
+                    </span>
+                </a>
+            </div>
+        </div>
+
+        
+        <div *ngSwitchCase="3" class="btn EmberIsland FireNation round-button">
+            <div class="round-button-circle">
+                <a [routerLink]="['/destination/', dest._id]" class="round-button tooltip">
+                    <span style="background-image: url('/assets/EmberIsland/EI_theather.jpg'); border:2px solid #ff0000;">
+
+                        <strong class="VergiliusFire">{{dest.name}}</strong><br />
+                        <strong class="VergiliusFire">{{dest.price | goldPipe}}</strong><br />
+                    </span>
+                </a>
+            </div>
+        </div>
+
+        <div *ngSwitchCase="4" class="btn Swamp WaterNation round-button">
+            <div class="round-button-circle">
+                <a [routerLink]="['/destination/', dest._id]" class="round-button tooltip">
+                    <span style="background-image: url('/assets/Swamp/S_tree.png');">
+
+                        <strong class="VergiliusWater" style="color:#193366;">{{dest.name}}</strong><br />
+                        <strong class="VergiliusWater" style="color:#193366;">{{dest.price | goldPipe}}</strong><br />
+                    </span>
+                </a>
+            </div>
+        </div>
+
+        <div *ngSwitchCase="5" class="btn NorthPole WaterNation round-button">
+            <div class="round-button-circle">
+                <a [routerLink]="['/destination/', dest._id]" class="round-button tooltip">
+                    <span style="background-image: url('/assets/NorthPole/NP_city.jpg');">
+
+                        <strong class="VergiliusWater" style="color:#193366;">{{dest.name}}</strong><br />
+                        <strong class="VergiliusWater" style="color:#193366;">{{dest.price | goldPipe}}</strong><br />
+                    </span>
+                </a>
+            </div>
+        </div>
+        
+        <div *ngSwitchCase="6" class="btn FNC FireNation round-button">
+            <div class="round-button-circle">
+                <a [routerLink]="['/destination/', dest._id]" class="round-button tooltip">
+                    <span style="background-image: url('/assets/FireNationCapital/FNC_city_2.jpg'); border:2px solid #ff0000;">
+
+                        <strong class="VergiliusFire">{{dest.name}}</strong><br />
+                        <strong class="VergiliusFire">{{dest.price | goldPipe}}</strong><br />
+                    </span>
+                </a>
+            </div>
+        </div>
+
+        <div *ngSwitchCase="7" class="btn WAT AirNation round-button">
+            <div class="round-button-circle">
+                <a [routerLink]="['/destination/', dest._id]" class="round-button tooltip">
+                    <span style="background-image: url('/assets/WesternAirTemple/WAT_full.png'); border:2px solid #ffffff;">
+
+                        <strong class="VergiliusAir">{{dest.name}}</strong><br />
+                        <strong class="VergiliusAir">{{dest.price | goldPipe}}</strong><br />
+                    </span>
+                </a>
+            </div>
+        </div>
+
+        <div *ngSwitchCase="8" class="btn Omashu EarthNation round-button">
+            <div class="round-button-circle">
+                <a [routerLink]="['/destination/', dest._id]" class="round-button tooltip">
+                    <span style="background-image: url('/assets/Omashu/O_O.jpg'); border:2px solid #995c00; ">
+
+                        <strong class="VergiliusEarth" style="color:black;">{{dest.name}}</strong><br />
+                        <strong class="VergiliusEarth" style="color:black;">{{dest.price | goldPipe}}</strong><br />
+                        
+                    </span>
+                </a>
+            </div>
+        </div>
+
+    
+        <div *ngSwitchCase="9" class="btn BaSingSe EarthNation round-button">
+            <div class="round-button-circle">
+                <a [routerLink]="['/destination/', dest._id]" class="round-button tooltip">
+                    <span style="background-image: url('/assets/BaSingSe/BSS_Wall_2.jpg'); border:2px solid #995c00;">
+
+                        <strong class="VergiliusEarth">{{dest.name}}</strong><br />
+                        <strong class="VergiliusEarth">{{dest.price | goldPipe}}</strong><br />
+                        
+                    </span>
+                </a>
+            </div>
+        </div>
+
+        <div *ngSwitchCase="10" class="btn EAT AirNation round-button">
+            <div class="round-button-circle">
+                <a [routerLink]="['/destination/', dest._id]" class="round-button tooltip">
+                    <span style="background-image: url('/assets/EasternAirTemple/EAT_full.png'); border:2px solid #ffffff;">
+
+                        <strong class="VergiliusAir">{{dest.name}}</strong><br />
+                        <strong class="VergiliusAir">{{dest.price | goldPipe}}</strong><br />
+                    </span>
+                </a>
+            </div>
+        </div>
+
+        <div *ngSwitchCase="11" class="btn SW FireNation round-button">
+            <div class="round-button-circle">
+                <a [routerLink]="['/destination/', dest._id]" class="round-button tooltip">
+                    <span style="background-image: url('/assets/SunWarriors/SW_gif_2.gif'); border:2px solid #ff0000;">
+
+                        <strong class="VergiliusFire">{{dest.name}}</strong><br />
+                        <strong class="VergiliusFire">{{dest.price | goldPipe}}</strong><br />
+                    </span>
+                </a>
+            </div>
+        </div>
+
+        
+
+        
+
+       
+
   </div>
 </div>
 

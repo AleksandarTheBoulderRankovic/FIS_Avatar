@@ -24,13 +24,82 @@
     -ms-transform: translate(-5%, -5%);
   }
 
-  .SouthPole{
-    top: 70%;
-    left: 50%;
+  .Omashu{
+    top: 49%;
+    left: 52%;
     transform: translate(-5%, -5%);
     -ms-transform: translate(-5%, -5%);
   }
 
+  .Kyoshi{
+    top: 59%;
+    left: 52%;
+    transform: translate(-5%, -5%);
+    -ms-transform: translate(-5%, -5%);
+  }
+
+  .SouthPole{
+    top: 70%;
+    left: 43%;
+    transform: translate(-5%, -5%);
+    -ms-transform: translate(-5%, -5%);
+  }
+
+  .NorthPole{
+    top: 18%;
+    left: 48%;
+    transform: translate(-5%, -5%);
+    -ms-transform: translate(-5%, -5%);
+  }
+
+  .Swamp{
+    top: 53.5%;
+    left: 53%;
+    transform: translate(-5%, -5%);
+    -ms-transform: translate(-5%, -5%);
+  }
+
+  .SAT{
+    top: 60%;
+    left: 43%;
+    transform: translate(-5%, -5%);
+    -ms-transform: translate(-5%, -5%);
+  }
+
+  .WAT{
+    top: 30%;
+    left: 36%;
+    transform: translate(-5%, -5%);
+    -ms-transform: translate(-5%, -5%);
+  }
+
+  .EAT{
+    top: 53%;
+    left: 67%;
+    transform: translate(-5%, -5%);
+    -ms-transform: translate(-5%, -5%);
+  }
+
+  .EmberIsland{
+    top: 45%;
+    left: 35%;
+    transform: translate(-5%, -5%);
+    -ms-transform: translate(-5%, -5%);
+  }
+
+  .FNC{
+    top: 45%;
+    left: 30%;
+    transform: translate(-5%, -5%);
+    -ms-transform: translate(-5%, -5%);
+  }
+
+  .SW{
+    top: 35%;
+    left: 33%;
+    transform: translate(-5%, -5%);
+    -ms-transform: translate(-5%, -5%);
+  }
   
 
 
@@ -47,15 +116,29 @@
     overflow:hidden;
           
     background: #4679BD; 
+    background-image : url("https://i.imgur.com/EWYD5qu.png");
+    background-size : 100px 100px;
+    background-position: center;
     box-shadow: 0 0 3px gray;
   }
-  .BaSingSe .round-button-circle:hover {
-    background-image : url(https://i.imgur.com/N2iZA2L.jpg);
+  .EarthNation .round-button-circle:hover {
+    background-image : url(https://i.imgur.com/14qeBDi.jpg);
     background-size : 39px 39px;
 
   }
-  .SouthPole .round-button-circle:hover {
-    background-image : url(https://i.imgur.com/uybtMY3.png);
+  .WaterNation .round-button-circle:hover {
+    background-image : url(https://i.imgur.com/2SmsnAy.png);
+    background-size : 39px 39px;
+
+  }
+
+  .AirNation .round-button-circle:hover {
+    background-image : url(https://i.imgur.com/ovgKGRp.png);
+    background-size : 39px 39px;
+
+  }
+  .FireNation .round-button-circle:hover {
+    background-image : url(https://i.imgur.com/97LMGNz.png);
     background-size : 39px 39px;
 
   }
@@ -89,8 +172,9 @@
   }
   a.tooltip:hover span{
       display:inline; position:absolute; 
-      border:2px solid #FFF;  color:rgb(4, 16, 184);
+      border:2px solid #1a8cff;  color:rgb(4, 16, 184);
       background:#333 repeat-x 0 0;
+      border-radius: 22px;
       
       background-repeat: no-repeat;
       background-size: 240px 230px;
@@ -105,3 +189,11 @@
       box-shadow: 0px 0px 8px 4px #666;
       /*opacity: 0.8;*/
   }
+
+.VergiliusWater { color:  #ffffff; font-family: "161VergiliusW00-Regular"; font-size: 22px; line-height: 40px; font-weight: normal; margin-bottom: 43px; margin-top: 40px; text-align: left; text-shadow: 0 1px 1px #0066cc; }
+
+.VergiliusEarth { color:  #995c00; font-family: "161VergiliusW00-Regular"; font-size: 22px; line-height: 40px; font-weight: normal; margin-bottom: 43px; margin-top: 40px; text-align: center; text-shadow: 0 1px 1px #ffd699; }
+
+.VergiliusFire { color:  #995c00; font-family: "161VergiliusW00-Regular"; font-size: 22px; line-height: 40px; font-weight: normal; margin-bottom: 43px; margin-top: 40px; text-align: center; text-shadow: 0 1px 1px #ffd699; }
+
+.VergiliusAir { color:  #004d99; font-family: "161VergiliusW00-Regular"; font-size: 22px; line-height: 40px; font-weight: normal; margin-bottom: 43px; margin-top: 40px; text-align: center; text-shadow: 0 1px 1px #1a8cff; }

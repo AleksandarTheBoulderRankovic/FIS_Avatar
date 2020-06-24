@@ -1,6 +1,9 @@
 <mat-toolbar>
 <h1 class="Vergilius">Final Avataration</h1>
+<h1 class="Vergilius2 right loggin" *ngIf="loggedIn"> logged in as user: {{ loginName }} </h1>
 <a class="right home nav-ver" [routerLink]="['/']" appDirBtn>HOME</a>
-<a class="right login nav-ver" [routerLink]="['/']" appDirBtn>LOGIN</a>
-<a class="right signup nav-ver" [routerLink]="['/']" appDirBtn>SIGN UP</a>
+<a *ngIf="!loggedIn" class="right login nav-ver" [routerLink]="['/login']" appDirBtn>LOGIN</a>
+<a *ngIf="!loggedIn" class="right signup nav-ver" [routerLink]="['/sign-up']" appDirBtn>SIGN UP</a>
+
+
 </mat-toolbar>

@@ -1,22 +1,175 @@
 [
     {
         "_id": 0,
-        "name": "Ba Sing Se",
-        "description": "a nice place",
-        "price": 15,
-        "images": [
-            "assets/BaSingSe/BSS_palace.jpg",
-            "assets/BaSingSe/BSS_peace.jpg",
-            "assets/BaSingSe/BSS_street.jpg",
-            "assets/BaSingSe/BSS_tea.png",
-            "assets/BaSingSe/BSS_Wall.png"
-        ]
+        "name": "Kyoshi Island",
+        "description": "//TODO",
+        "price": 1500,
+        "images": [ 
+            "assets/KyoshiIsland/KI_birth.png",   
+            "assets/KyoshiIsland/KI_village.png", 
+            "https://37.media.tumblr.com/tumblr_lmd0zobFHH1qewk6no1_400.gif",
+            "assets/KyoshiIsland/KI_warriors.png", 
+            "assets/KyoshiIsland/KI_fanboi.jpg"
+         ]
     },
     {
         "_id": 1,
         "name": "South Pole",
-        "description": "a bitchin place",
-        "price": 2,
-        "images": []
+        "description": "So... Thinking about going to the South Pole, eh? Intreresting... Is everyting allright at home? Sorry, none of my business. Anyway please dont come here, what is wrong with you!? It's COLD, it's so fucking cold... I guess if you like penguin sledding, but even then not worth it maan. I'll give you money to go somewhere else. <br> <br> Let's see.. South Poles 'main attractions' : losing your nose to frostbite, ice fishing ( only for water banders ), staring into the empty desolate void made of ice and shuddering when it stares back.  <br> <br> Do you think Katara and Sokka went with Aang because it was the right thing to do? Nah they were straight up fleeing from this godforsaken place!",
+        "price": -1000,
+        "images": [ 
+            "assets/SouthPole/SP_ice.jpg",  
+            "assets/SouthPole/SP_lame_village.png",
+            "assets/SouthPole/SP_pingus.png",
+            "assets/SouthPole/SP_Desolation.png",
+             "assets/SouthPole/SP_even_more_ice.jpg",                      
+             "assets/SouthPole/SP_more_ice.jpg",
+             "assets/SouthPole/SP_king.jpg"
+             ]
+    },
+    {
+        "_id": 2,
+        "name": "Southern Air Temple",
+        "description": "Southern Air Temple, a place of peace and wonder. The Ancient halls hold the secrets of the air nomads and their way of life. If you seek to enlighten yourself this is the place for you. <br> <br> Find out what air nomads did for fun, what kind of games they played and how they thought doors should be locked ( spoilers : an intricate ait based tube/horn system, but i already said too much). Such beauty can be found here from old statues to breathtaking architecture, and you would not believe the view... <br> <br> Visiting old air nomad temples is important because it keeps their memory alive. The temples are a sad reminder of a great people wiped from existence for no good reason. Yeah it sounds depressing but i guess it should.",
+        "price": 2000,
+        "images": [ 
+            "assets/SAT/SAT_Courtyard.png",
+            "assets/SAT/SAT_Avatars.png",  
+            "assets/SAT/SAT_sat.png",
+            "assets/SAT/SAT_Quidich2.png",
+            "assets/SAT/SAT_doors.png",
+             "assets/SAT/SAT_FatherFigure.jpeg"                                
+             ]
+    },
+    {
+        "_id": 3,
+        "name": "Ember Island",
+        "description": "Feeling incomplete? Doubting yourself? Having a weird itch nothing can scratch? <br> Ember Island is a magical place, give it a chance and it can help you understand yourself... <br> The beach has a special way of smoothing even the most ragged edges. Like waves washing out the footprints in the sand, Ember Island gives everyone a clean slate. <br> <br> Ah, I see... You think that you don't need spiritual guidance... Well you're in luck! Embar Island has many more things to offer! It's most famous attraction is the local theatre, where thespians gather to perform some magnificent plays! Every piece is deeply rooted in real life events, which makes them even more compelling to watch.  <br> <br> What's that? Plays are bornig and for children?! Fine... Ember Island also has a beach! Playing beach volleyball, swimming or having a nice evening by the campfire can also fill your day with fun. <br> <br> You... You don't like sand? What the Fu.. Erm.. Yes, well... Sand does get into everywhere... <br> Do you like parties!? Chan and Ron Jon, fire nations most famous teens, throw killer shindigs in their huge mannor. And everyone is invited! (disclaimer : this statemant is mostly true)",
+        "price": 6000,
+        "images": [ 
+            "assets/EmberIsland/EI_beach.PNG",
+            "assets/EmberIsland/EI_Jet.PNG", 
+            "assets/EmberIsland/EI_house.jpg",
+            "assets/EmberIsland/EI_theather.jpg",
+            "assets/EmberIsland/EI_Fire2.PNG", 
+            "assets/EmberIsland/EI_party.PNG"                 
+                   
+             ]
+    },
+    {
+        
+        "_id": 4,
+        "name": "The Swamp",
+        "description": "//TODO",
+        "price": 8000,
+        "images": [
+            "assets/Swamp/S_green.jpg",
+            "assets/Swamp/S_tree.png",
+            "assets/Swamp/S_village.jpg",
+            "assets/Swamp/S_vines.jpg",
+            "https://pa1.narvii.com/6895/e5060faca24add8f7ccb1d07566712412a62f037r1-245-171_hq.gif"
+            
+        ]
+    },
+    {
+        "_id": 5,
+        "name": "North Pole",
+        "description": "//TODO",
+        "price": 1000,
+        "images": [ 
+            "assets/NorthPole/NP_city.jpg",   
+            "assets/NorthPole/NP_fountain.jpg",   
+            "assets/NorthPole/NP_oasis.jpg",   
+            "assets/NorthPole/NP_street.jpg",   
+            "assets/NorthPole/NP_wall.jpg",   
+            "assets/NorthPole/NP_wall_2.png",   
+            "assets/NorthPole/NP_zdanje.png"                     
+             ]
+    },
+    
+    {
+        "_id": 6,
+        "name": "Fire Nation Capital",
+        "description": "//TODO",
+        "price": 10000,
+        "images": [ 
+            "assets/FireNationCapital/FNC_prison.png",
+            "https://66.media.tumblr.com/812baa5e588c2f04436fc409ca31afde/tumblr_oldiy7cx6m1tvso1qo6_250.gifv",   
+            "assets/FireNationCapital/FNC_city_2.jpg",
+            "assets/FireNationCapital/FNC_Palace.png",
+            "assets/FireNationCapital/FNC_throne.jpg"         
+             ]
+    },
+    {
+        "_id": 7,
+        "name": "Western Air Temple",
+        "description": "//TODO",
+        "price": 2000,
+        "images": [ 
+            "assets/WesternAirTemple/WAT_bison.jpg",   
+            "assets/WesternAirTemple/WAT_fountain.png",   
+            "assets/WesternAirTemple/WAT_full.png",   
+            "assets/WesternAirTemple/WAT_more_statues.jpg",   
+            "assets/WesternAirTemple/WAT_statue.jpg"
+         ]
+    },
+    {
+        "_id": 8,
+        "name": "Omashu",
+        "description": "//TODO",
+        "price": 4000,
+        "images": [ 
+            "assets/Omashu/O_TTTL.jpg",   
+            "assets/Omashu/O_king.png", 
+            "assets/Omashu/O_O.jpg",
+            "assets/Omashu/O_slides.png",
+            "assets/Omashu/O_sledding.jpg",
+            "assets/Omashu/O_cabbeges.png"                     
+             ]
+    },
+    {
+        "_id": 9,
+        "name": "Ba Sing Se",
+        "description": "Ahhh the greate city of BA SING SE, the stories i could tell you about this magnificent place, but i wont, you didn't come to this page to hear me jibber jabber about this and that. <br> <br> Let's start with the painfully obvious THE WALL ( it's a big wall), the legends say it was constructed by the king of Badger moles himself, when earth kingdom was known as pebble kingdom and earth benders were still bending river mud. It stands tall and proud and shields Ba Sing Se from every threat. <br> <br> Inside the walls you can see acres upon acres of farm lands streaching far and wide, in this area Lake Laogai can be found for some lake-side rest and relaxation and nothing ominous, but most poeple just take the train to the inner city as fast as they can - thats where the fun begins. <br> <br> In the inner city there are market places where you can buy the bast cabbages , tea shops, poetry reading clubs and many other attractions that can bankrupt your coin purse before the city urchins steal it! <br> <br> And in the very centre of the city a glorious palace resides, you can't really enter it but a glance from a distance is more than enough for a low-born scum like you, kidding kidding I'm sure you are not a peasant you're probably just having a bad day. Now then why are you still reading!? Come! Let Ba Sing Se show you why the Fire Nation fears it!",
+        "price": 8000,
+        "images": [
+            "assets/BaSingSe/BSS_Wall.png",
+            "assets/BaSingSe/BSS_street.jpg",
+            "assets/BaSingSe/BSS_tea.png",
+            "assets/BaSingSe/BSS_palace.jpg",
+            "assets/BaSingSe/BSS_LL2.png",
+            "assets/BaSingSe/BSS_peace.jpg"
+            
+        ]
+    },
+    {
+        "_id": 10,
+        "name": "Eastern Air Temple",
+        "description": "//TODO",
+        "price": 2000,
+        "images": [
+            "assets/EasternAirTemple/EAT_landing.png",
+            "assets/EasternAirTemple/EAT_full.png",
+            "assets/EasternAirTemple/EAT_guru.png",
+            "assets/EasternAirTemple/EAT_session.png",
+            "assets/EasternAirTemple/EAT_water_2.png"
+        ]
+    },
+    {
+        "_id": 11,
+        "name": "Sun Warriors",
+        "description": "//TODO",
+        "price": 4500,
+        "images": [
+            "assets/SunWarriors/SW_city.png",
+            "assets/SunWarriors/SW_gif_2.gif",
+            "assets/SunWarriors/SW_dancing_dragons.png",
+            "assets/SunWarriors/SW_depiction.png",
+            "assets/SunWarriors/SW_R_S.jpg",
+            "assets/SunWarriors/SW_rundown.jpg",
+            "assets/SunWarriors/SW_statue.png",
+            "assets/SunWarriors/SW_sw.jpg"
+        ]
     }
+    
 ]

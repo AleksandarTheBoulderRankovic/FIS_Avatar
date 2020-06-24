@@ -9,7 +9,6 @@ import { map } from 'rxjs/operators';
 })
 export class DestinationServiceService {
 
-  private destList: Destination[] = [];
   constructor(private http : HttpClient) { 
     
   }

@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { ReactiveFormsModule } from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -14,6 +15,14 @@ import {IvyCarouselModule} from 'angular-responsive-carousel';
 import { HttpClientModule } from '@angular/common/http';
 import { MatButtonModule } from '@angular/material/button';
 import { DirBtnDirective } from './directives/dir-btn.directive';
+import { SignUpComponent } from './sign-up/sign-up.component';
+import { LoginComponent } from './login/login.component';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatIconModule } from '@angular/material/icon';
+import { MatInputModule } from '@angular/material/input';
+import { SignupParentComponent } from './signup-parent/signup-parent.component';
+import { GoldPipePipe } from './pipes/gold-pipe.pipe';
+import { CabbagePatchPipe } from './pipes/cabbage-patch.pipe';
 
 @NgModule({
   declarations: [
@@ -22,7 +31,12 @@ import { DirBtnDirective } from './directives/dir-btn.directive';
     AvatarWorldComponent,
     DestinationComponent,
     NavigationComponent,
-    DirBtnDirective
+    DirBtnDirective,
+    SignUpComponent,
+    LoginComponent,
+    SignupParentComponent,
+    GoldPipePipe,
+    CabbagePatchPipe
   ],
   imports: [
     BrowserModule,
@@ -32,7 +46,11 @@ import { DirBtnDirective } from './directives/dir-btn.directive';
     MatCardModule,
     IvyCarouselModule,
     HttpClientModule,
-    MatButtonModule
+    MatButtonModule,
+    MatFormFieldModule,
+    MatIconModule,
+    MatInputModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

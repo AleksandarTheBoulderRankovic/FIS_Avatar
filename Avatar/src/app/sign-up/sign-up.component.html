@@ -1,0 +1,25 @@
+<form [formGroup]="signUpForm" (ngSubmit)="submitForm(signUpForm.value)">
+   <mat-form-field appearance="fill" style="margin-left: 25%; margin-top: 5%">
+      <mat-label>First and Last name</mat-label>
+      <input name="name" id="name" matInput placeholder="Cabbage Merchant" formControlName="name">
+      <mat-icon matSuffix>accessibility_new</mat-icon>
+      <mat-hint>If you can't manage this one maybe you shouldn't be planning a vacation</mat-hint>
+    </mat-form-field>
+
+    <mat-form-field appearance="fill" style="margin-left: 100px; margin-top: 5%">
+        <mat-label>Email</mat-label>
+        <input name="email" id="email" matInput placeholder="mycabbages@gmail.com" formControlName="email">
+        <mat-icon matSuffix>contact_mail</mat-icon>
+        <mat-hint>In the world of Avatar email doesn't exist</mat-hint>
+      </mat-form-field>
+
+    <mat-form-field appearance="fill" style="margin-left: 100px; margin-top: 5%">
+        <mat-label>Address</mat-label>
+        <input name="address" id="address" matInput placeholder="The city of Omashu" formControlName="address">
+        <mat-icon matSuffix>home</mat-icon>
+        <mat-hint>Where u at brah?</mat-hint>
+      </mat-form-field>
+
+      <button class="buttonSubmit" type="submit" [disabled]="!signUpForm.valid" appDirBtn> Sign Up </button>
+</form>
+

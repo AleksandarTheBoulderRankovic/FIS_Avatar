@@ -1,5 +1,5 @@
 
-<mat-card class="spaceDude" *ngIf="destination">{{ destination.name }}</mat-card>
+<mat-card class="spaceDude  Vergilius" *ngIf="destination"><h1>{{ destination.name }}</h1></mat-card>
 
 <mat-card>
   <carousel [images]="pictures" [cellWidth]=600 [height]=300 [minSwipeDistance]=10></carousel>
@@ -7,5 +7,5 @@
 
 
 
-<mat-card class="spaceDude"><p>{{ destination.description }}</p></mat-card>
+<mat-card class="spaceDude" style="font-size: 22px; color: #99e6ff; text-shadow: 1px 0 0 #99e6ff;" [innerHTML]="destination.description"><p>{{ destination.description | cabbagePatch }}</p></mat-card>
 

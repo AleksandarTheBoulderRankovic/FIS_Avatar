@@ -33,9 +33,8 @@
   }
 
   .spaceDude_2 {
-    position: absolute;
-    top: 40%;
-    margin: 100px 0px 10px 0px;
+    position: relative;
+    margin: 10px 0px 10px 0px;
   }
 
 

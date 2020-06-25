@@ -1,4 +1,4 @@
-<form [formGroup]="loginForm" (ngSubmit)="submitForm(loginForm.value)">
+<form [formGroup]="loginForm" (ngSubmit)="submitForm(loginForm.value)" class="bg">
     <mat-form-field appearance="fill" style="margin-left: 35%; margin-top: 5%">
        <mat-label>First and Last name</mat-label>
        <input name="name" id="name" matInput placeholder="Cabbage Merchant" formControlName="name">

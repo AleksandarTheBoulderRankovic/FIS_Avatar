@@ -4,7 +4,6 @@ import { ReactiveFormsModule } from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { HomepageComponent } from './homepage/homepage.component';
 import { AvatarWorldComponent } from './avatar-world/avatar-world.component';
 import { DestinationComponent } from './destination/destination.component';
 import { NavigationComponent } from './navigation/navigation.component';
@@ -27,7 +26,6 @@ import { CabbagePatchPipe } from './pipes/cabbage-patch.pipe';
 @NgModule({
   declarations: [
     AppComponent,
-    HomepageComponent,
     AvatarWorldComponent,
     DestinationComponent,
     NavigationComponent,

@@ -1,4 +1,5 @@
-<form [formGroup]="signUpForm" (ngSubmit)="submitForm(signUpForm.value)">
+<div class="bg">
+<form [formGroup]="signUpForm" (ngSubmit)="submitForm(signUpForm.value)" >
    <mat-form-field appearance="fill" style="margin-left: 25%; margin-top: 5%">
       <mat-label>First and Last name</mat-label>
       <input name="name" id="name" matInput placeholder="Cabbage Merchant" formControlName="name">
@@ -22,4 +23,6 @@
 
       <button class="buttonSubmit" type="submit" [disabled]="!signUpForm.valid" appDirBtn> Sign Up </button>
 </form>
+
+</div>
 

@@ -28,6 +28,7 @@
   }
 
   .spaceDude {
+    position: relative;
     margin: 10px 0px 10px 0px;
   }
 
@@ -36,4 +37,19 @@
     height: 15;
   }
 
-  .Vergilius { color:  #006080; font-family: "161VergiliusW00-Regular"; font-size: 22px; line-height: 40px; font-weight: normal; margin-bottom: 43px; margin-top: 40px; text-align: left; text-shadow: 0 1px 1px #99e6ff; }
+  .Vergilius { color:  #006080; font-family: "161VergiliusW00-Regular"; font-size: 22px; line-height: 40px; font-weight: normal; margin-bottom: 43px; margin-top: 0px; text-align: left; text-shadow: 0 1px 1px #99e6ff; }
+
+  .bg {
+    background-image: url('/assets/bg.jpg');
+    background-size: cover;
+    height: 100%;
+  }
+
+  .par {
+    background-image: url('/assets/bg_3.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+  }
+

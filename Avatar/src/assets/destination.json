@@ -2,7 +2,7 @@
     {
         "_id": 0,
         "name": "Kyoshi Island",
-        "description": "//TODO",
+        "description": "Have you ever heard of a place called Kyoshi Island? <br> No? Well I'm not surprised it was once a part of Earth kingdoms mainland but that was a long time ago... <br> <br> An avatar named Kyoshi was raised in this area when it was just a peninsula and not a full grown island. A warlord was conquering the Earth Kingdom and he finally came to Kyoshi's town, she did not find that convenient. She peaced the fuck out of there taking tho whole peninsula with her, sadly as a byproduct of her shenanigans the warlord fell to his untimely demise... <br> <br> Oh crap i went on a tangent. Why would you want to come here you ask? Erm Elephant Koi surfing! Ha bet you dodn't see that one coming! Also if you need warrior training and happen to be a female, the elite Kyoshi warriors would probably help you out, if your cause was just and you had an unwavering spirit ( you must also be a fan of fans, they will never say that aloud but they act like it's implied... What if someone had a fan related accident as a child huh? What about me?! Erm I mean what about them!? ) .",
         "price": 1500,
         "images": [ 
             "assets/KyoshiIsland/KI_birth.png",   
@@ -15,7 +15,7 @@
     {
         "_id": 1,
         "name": "South Pole",
-        "description": "So... Thinking about going to the South Pole, eh? Intreresting... Is everyting allright at home? Sorry, none of my business. Anyway please dont come here, what is wrong with you!? It's COLD, it's so fucking cold... I guess if you like penguin sledding, but even then not worth it maan. I'll give you money to go somewhere else. <br> <br> Let's see.. South Poles 'main attractions' : losing your nose to frostbite, ice fishing ( only for water banders ), staring into the empty desolate void made of ice and shuddering when it stares back.  <br> <br> Do you think Katara and Sokka went with Aang because it was the right thing to do? Nah they were straight up fleeing from this godforsaken place!",
+        "description": "So... Thinking about going to the South Pole, eh? Intreresting... Is everyting all right at home? Sorry, none of my business. Anyway please dont come here, what is wrong with you!? It's COLD, it's so fucking cold... I guess if you like penguin sledding, but even then not worth it maan. I'll give you money to go somewhere else. <br> <br> Let's see.. South Poles 'main attractions' : losing your nose to frostbite, ice fishing ( only if you are a water banders ), staring into the empty desolate void made of ice and shuddering when it stares back.  <br> <br> Do you think Katara and Sokka went with Aang because it was the right thing to do? Nah they were straight up fleeing from this godforsaken place!",
         "price": -1000,
         "images": [ 
             "assets/SouthPole/SP_ice.jpg",  
@@ -60,12 +60,13 @@
         
         "_id": 4,
         "name": "The Swamp",
-        "description": "//TODO",
-        "price": 8000,
+        "description": "What... Not exited about a swamp themed vacation? You complete bafoon... Ohh Ohh but there are bugs oh noo my skin... Pathetic... Oh Ohh the mud is gonna stick to my bootsies and the vines are gonna make it hard to walk... Weak... You know who comes to the swamp - A REAL MAN that's who. Not being sexist here, women can be man I dont judge it's more about a personality trait then about who has chest hair where...<br> Listan up you scrawny pasty ass cabbage salesman of a person the swamp will make a man out of you, everyone should be sent here when they turn sixteen to learn the truth about this world and maybe have some hallucinations of flying boars what ever. <br> <br> On the other hand if you truly love nature and want to feel the magnitude of life surround you, there is no place better for you then the swamp. The animals, the trees, vines and floweres every part of the swamp beckons to be explored and witnessed. To realy find your place in this world come to the swamp and discover the path that you should be threading.  <br> <br> On the third and final hand ( people have three hands sometimes fuck you... ) if you wanna get shitfaced with some water bending rednecks on moonshine the swamp will provide. The swamp will ALWAYS provide. Sidenote don't bring your pets with you the red-water-necks get hungry and don't care what they spit-roast.",
+        "price": 500,
         "images": [
-            "assets/Swamp/S_green.jpg",
-            "assets/Swamp/S_tree.png",
             "assets/Swamp/S_village.jpg",
+            "assets/Swamp/S_tree.png",
+            "assets/Swamp/S_green.jpg",
+            "assets/Swamp/S_rwn.png",
             "assets/Swamp/S_vines.jpg",
             "https://pa1.narvii.com/6895/e5060faca24add8f7ccb1d07566712412a62f037r1-245-171_hq.gif"
             
@@ -74,13 +75,13 @@
     {
         "_id": 5,
         "name": "North Pole",
-        "description": "//TODO",
-        "price": 1000,
+        "description": "If you read the description of South Pole you must be thinking 'oh gods what's this place gonna be like'... <br> Don't even go there, The North Pole is everything the South Pole wishes it was and never will be. <br> For one thing the North pole has a big wall that can keep the fire nation at bay ( 'A sturdy wall!? GASP it never even occurred to me' - probably some south poler ). <br> They also have a good number of water benders and it SHOWS... Every part of the city is an ice sculpture, a feast for the eyes and soul.<br> This place is pure, beautiful and a must see for any world traveler! <br> <br> If you're in need of a water bending master this place should be your number one stop, or the South pole of course... Ahahah kidding... Could you imagine sending a water bender to train at the South pole hahahah I would... hahaha I would rather take my chances with the red-water-necks in the SWAMP! *continues laughing for an inappropriate amount of time... <br> ha ha What were we talking about? Ah yes water bending masters, the best in the world can be found here, legendary warriors filled with grace, poise and strength. <br> Good luck if you ever make an enemy out of one of them...   <br> <br> One of the most sacred places resides here. An oasis guarded by the northerners. Probably slim chances for you to see it but if you get on the good side of someone in the chiefs family who knows. Maybe they even let you meet ( or feed ) the ocean and moon spirits!",
+        "price": 9000,
         "images": [ 
-            "assets/NorthPole/NP_city.jpg",   
+            "assets/NorthPole/NP_street.jpg",
+            "assets/NorthPole/NP_city.jpg",     
             "assets/NorthPole/NP_fountain.jpg",   
-            "assets/NorthPole/NP_oasis.jpg",   
-            "assets/NorthPole/NP_street.jpg",   
+            "assets/NorthPole/NP_oasis.jpg", 
             "assets/NorthPole/NP_wall.jpg",   
             "assets/NorthPole/NP_wall_2.png",   
             "assets/NorthPole/NP_zdanje.png"                     
@@ -90,7 +91,7 @@
     {
         "_id": 6,
         "name": "Fire Nation Capital",
-        "description": "//TODO",
+        "description": "It's no secret that the Fire Nation is the strongest civilization in the world. Wanna see what all those years of prosperity bring to the table? A huge fucking city thats for sure and its stunning! <br> Everything here is so advanced, if you're a dirt poor mud bender from an Earth Kingdom village comming here is gonna feel like you landed in another world. <br> <br> Well the place is great but the poeple... They kinda lost their way. No singing, no dancing just war this war that... Sheesh can I guy just drink some fire-berry wine in peace?<br> And don't get me started on rampant agni kai's ( traditional fire bending duels ) that randomly get started all over the city at any time... Every godsdamn time some idiot yells 'MY HONOR REEEE' and shit gets blasted... I've had my eyebrows singed three times this month. I keep thinking about shaving them off. Saves me the trouble of having to put them out before my face gets scared... <br> <br> Come here don't come here i don't really care, but I'm sure as hell leaving! And I'm gonna leave a bad review! After I cross the border of course he he not looking for some prison action right now.",
         "price": 10000,
         "images": [ 
             "assets/FireNationCapital/FNC_prison.png",
@@ -102,21 +103,24 @@
     },
     {
         "_id": 7,
-        "name": "Western Air Temple",
-        "description": "//TODO",
-        "price": 2000,
-        "images": [ 
-            "assets/WesternAirTemple/WAT_bison.jpg",   
-            "assets/WesternAirTemple/WAT_fountain.png",   
-            "assets/WesternAirTemple/WAT_full.png",   
-            "assets/WesternAirTemple/WAT_more_statues.jpg",   
-            "assets/WesternAirTemple/WAT_statue.jpg"
-         ]
+        "name": "Sun Warriors",
+        "description": "Everyone knows where The Fire Nation went, but only a few still remember how it started. This area is the birthplace of a nation, people here learned fire bending from the dragons and still remeber the ancient ways. <br> <br> If you ever feel that relying on anger to bend fire is the wrong way to go about the whole thing, come to this place and learn the true meaning of fire bending. Mind the traps on your way in and out though. <br>  FOR YOU SEE the sun warriors still keep a few secrets in this old place. Never tell this to a fire bender from the Fire Nations but the worlds last dragons Ran and Shaw still live here. The dragons were hunted down by powerful fire benders who wanted to prove their strength. Only two remain and they must be safeguarded at all costs! <br> <br> The traps, hostile poeple and two full grown secret dragons make this place a little too dangerous for vacationing... But it still beats visiting South Pole though.",
+        "price": 4500,
+        "images": [
+            "assets/SunWarriors/SW_city.png",
+            "assets/SunWarriors/SW_gif_2.gif",
+            "assets/SunWarriors/SW_dancing_dragons.png",
+            "assets/SunWarriors/SW_depiction.png",
+            "assets/SunWarriors/SW_R_S.jpg",
+            "assets/SunWarriors/SW_rundown.jpg",
+            "assets/SunWarriors/SW_statue.png",
+            "assets/SunWarriors/SW_sw.jpg"
+        ]
     },
     {
         "_id": 8,
         "name": "Omashu",
-        "description": "//TODO",
+        "description": "The city of Omashu! Home to one of the strongest earth benders alive King Bumi himself! Be amazed by the intricate layout of this city that resembles none other in the entire Earth Kingdom! <br> <br> History time! All aboard the LORE train choo ch...(  yeah you get the point ) Eons ago when our world was young two lovers lived in villages, separated by a mountain, that were at war. The lovers met at the mountains peak and fell in love. The two of them were the first to learn earth bending from the badger moles, they used that knowlage to create a labyrinth inside the mountain so they could meet without being disturbed. But one day the man didn't come, he died in the war... The woman was devastated, she unleashed her great earth bending on the warring peasants stoping them from fighting. But instead of destroying them she united them and together they made the great city of Omashu. The woman's name was Oma and the man's Shu, the city carries their names united forever. Lore completed back to my sales pitch! <br> <br> So what's so special about this place? Well have you ever felt the need for something to be delivered to your feet without the gruesome task of leaving your house? Well if you are that lazy the city of Omashu has you covered, it runs on a sophisticated slide and bend system, goods go up via earth bending and go down slidin'. Don't look so impressed earth bending leads to many powers some would consider unnatural. If the guards ask you this information didn't come from me... But there is one more use for that system. It was actually King Bumi that first used it as a rollercoaster ( of course now that he is the king the press is prohibited from mentioning his troubled past... ). <br> <br> One more thing the city would never permit rotten cabbages inside their walls ( there was a whole thing and no one wants to talk about it anymore). So if you're a budding hot shot cabbage seller thinking about scoring some copper for a few heads of rotten cabbage think again! NOT IN MY CITY!",
         "price": 4000,
         "images": [ 
             "assets/Omashu/O_TTTL.jpg",   
@@ -137,7 +141,7 @@
             "assets/BaSingSe/BSS_street.jpg",
             "assets/BaSingSe/BSS_tea.png",
             "assets/BaSingSe/BSS_palace.jpg",
-            "assets/BaSingSe/BSS_LL2.png",
+            "assets/BaSingSe/BSS_LL.PNG",
             "assets/BaSingSe/BSS_peace.jpg"
             
         ]
@@ -145,7 +149,7 @@
     {
         "_id": 10,
         "name": "Eastern Air Temple",
-        "description": "//TODO",
+        "description": "People come to the Eastern Air temple for one of two reasons: they eather need spiritual guidence from a guru or they got lost. The latter happens more often then you think ( drinking and riding flying bisons was a real problem back in the day). <br> <br> If you seek to open up your chakras and let the universe guide you ( and you don't think that your local crystal slinging essential oil peddling Karen can quite satisfy those urges ) a guide can be found here. He is over one hundred years old, skinny as a ferret and filled with wisdom that only comes to people living alone in a remote place because their flying bison actually wanted to strand them somewhere their alcoholic ways can't harm innocent bystanders ( thanks a lot Bappa! I thought we were just going for a midnight arial stroll... ). <br> <br> Well apart from it being so remote and desolate the air nomads did create a beautiful place here. I just wish I got to see it when it was populated by actual people and not one strange guy telling me to let go of my clothes ( shackling garments is the exact quote - the police officer made me remember it properly later ) and join him in his gunky pool. ",
         "price": 2000,
         "images": [
             "assets/EasternAirTemple/EAT_landing.png",
@@ -157,19 +161,17 @@
     },
     {
         "_id": 11,
-        "name": "Sun Warriors",
-        "description": "//TODO",
-        "price": 4500,
-        "images": [
-            "assets/SunWarriors/SW_city.png",
-            "assets/SunWarriors/SW_gif_2.gif",
-            "assets/SunWarriors/SW_dancing_dragons.png",
-            "assets/SunWarriors/SW_depiction.png",
-            "assets/SunWarriors/SW_R_S.jpg",
-            "assets/SunWarriors/SW_rundown.jpg",
-            "assets/SunWarriors/SW_statue.png",
-            "assets/SunWarriors/SW_sw.jpg"
-        ]
+        "name": "Western Air Temple",
+        "description": "I know... I know... 'It's too close to the Fire Nation... We have to cross a blockade to get to it bla bla bla...' I heard every exuse in the book, stop blaming a devastating global war for you just being lazy and not respecting ancient air nomad culture! And no you don't have to walk upside down here... Laws of gravity still work you halfwit goat chaser! <br> <br> Sorry I lost my composure for a second people rile me up sometimes... Anyways it was a great place before Combustion man and Azula fire blasted the ancient dust off of it. Yup evil fire banders attacking old air nomad habitats... And where was the Avatar, the very last decendent of the Air Nomad Nation!? He was right there and he did nothing! Hello!? Your cultural heritage is being destroyed in front of you! Do something you lettuce! <br> <br> Oh there I go again... I'm calm. I'm calm. deep breaths. I guess a percentige of a mind-boggling city can still boggle a good portion of your mind. Just please be carefull and don't destroy it further. My heart could not take that... ",
+        "price": 2000,
+        "images": [ 
+            "assets/WesternAirTemple/WAT_bison.jpg",   
+            "assets/WesternAirTemple/WAT_fountain.png",   
+            "assets/WesternAirTemple/WAT_full.png",   
+            "assets/WesternAirTemple/WAT_more_statues.jpg",   
+            "assets/WesternAirTemple/WAT_statue.jpg"
+         ]
+        
     }
     
 ]

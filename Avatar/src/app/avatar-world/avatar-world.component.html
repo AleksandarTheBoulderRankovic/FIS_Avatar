@@ -90,13 +90,13 @@
             </div>
         </div>
 
-        <div *ngSwitchCase="7" class="btn WAT AirNation round-button">
+        <div *ngSwitchCase="7" class="btn SW FireNation round-button">
             <div class="round-button-circle">
                 <a [routerLink]="['/destination/', dest._id]" class="round-button tooltip">
-                    <span style="background-image: url('/assets/WesternAirTemple/WAT_full.png'); border:2px solid #ffffff;">
+                    <span style="background-image: url('/assets/SunWarriors/SW_gif_2.gif'); border:2px solid #ff0000;">
 
-                        <strong class="VergiliusAir">{{dest.name}}</strong><br />
-                        <strong class="VergiliusAir">{{dest.price | goldPipe}}</strong><br />
+                        <strong class="VergiliusFire">{{dest.name}}</strong><br />
+                        <strong class="VergiliusFire">{{dest.price | goldPipe}}</strong><br />
                     </span>
                 </a>
             </div>
@@ -140,25 +140,19 @@
                 </a>
             </div>
         </div>
-
-        <div *ngSwitchCase="11" class="btn SW FireNation round-button">
+    
+        <div *ngSwitchCase="11" class="btn WAT AirNation round-button">
             <div class="round-button-circle">
                 <a [routerLink]="['/destination/', dest._id]" class="round-button tooltip">
-                    <span style="background-image: url('/assets/SunWarriors/SW_gif_2.gif'); border:2px solid #ff0000;">
+                    <span style="background-image: url('/assets/WesternAirTemple/WAT_full.png'); border:2px solid #ffffff;">
 
-                        <strong class="VergiliusFire">{{dest.name}}</strong><br />
-                        <strong class="VergiliusFire">{{dest.price | goldPipe}}</strong><br />
+                        <strong class="VergiliusAir" style="color:#0099ff;">{{dest.name}}</strong><br />
+                        <strong class="VergiliusAir" style="color:#0099ff;">{{dest.price | goldPipe}}</strong><br />
                     </span>
                 </a>
             </div>
         </div>
-
         
-
-        
-
-       
-
   </div>
 </div>
 

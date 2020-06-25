@@ -1,11 +1,10 @@
-
+<div class="bg">
 <mat-card class="spaceDude  Vergilius" *ngIf="destination"><h1>{{ destination.name }}</h1></mat-card>
 
-<mat-card>
-  <carousel [images]="pictures" [cellWidth]=600 [height]=300 [minSwipeDistance]=10></carousel>
+
+<carousel [images]="pictures" [cellWidth]=600 [height]=300 [minSwipeDistance]=10></carousel>
+<mat-card class="par">
+<div class="spaceDude" style="font-weight: bold; font-size: 26px; color: black; text-shadow: 2px 0 0 white;" [innerHTML]="destination.description | cabbagePatch"><p>{{ destination.description | cabbagePatch }}</p></div>
 </mat-card>
-
-
-
-<mat-card class="spaceDude" style="font-size: 22px; color: #99e6ff; text-shadow: 1px 0 0 #99e6ff;" [innerHTML]="destination.description"><p>{{ destination.description | cabbagePatch }}</p></mat-card>
+</div>
 

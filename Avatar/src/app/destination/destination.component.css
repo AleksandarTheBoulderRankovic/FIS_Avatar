@@ -32,6 +32,12 @@
     margin: 10px 0px 10px 0px;
   }
 
+  .spaceDude_2 {
+    position: absolute;
+    top: 40%;
+    margin: 100px 0px 10px 0px;
+  }
+
 
   .car {
     height: 15;
@@ -47,6 +53,14 @@
 
   .par {
     background-image: url('/assets/bg_3.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+  }
+
+  .banner {
+    background-image: url('/assets/banner_2.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

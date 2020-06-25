@@ -123,23 +123,23 @@
   }
   .EarthNation .round-button-circle:hover {
     background-image : url(https://i.imgur.com/14qeBDi.jpg);
-    background-size : 39px 39px;
+    background-size : 100% 100%;
 
   }
   .WaterNation .round-button-circle:hover {
     background-image : url(https://i.imgur.com/2SmsnAy.png);
-    background-size : 39px 39px;
+    background-size : 100% 100%;
 
   }
 
   .AirNation .round-button-circle:hover {
     background-image : url(https://i.imgur.com/ovgKGRp.png);
-    background-size : 39px 39px;
+    background-size : 100% 100%;
 
   }
   .FireNation .round-button-circle:hover {
     background-image : url(https://i.imgur.com/97LMGNz.png);
-    background-size : 39px 39px;
+    background-size : 100% 100%;
 
   }
   .round-button a {
